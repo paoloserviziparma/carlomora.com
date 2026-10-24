@@ -63,7 +63,7 @@ T = {
         "home_desc": "Carlo Mora Parrucchieri, salone Art Hair Studios by Wella in Viale Mentana 12/a a Parma: taglio, colore, piega e trattamenti donna. Prenota su WhatsApp.",
         "skip": "Vai al contenuto",
         "menu": "Menu",
-        "nav": [("filosofia", "Filosofia"), ("arcano", "Quale Arcano sei?"), ("prima-volta", "Prima volta"), ("orari", "Orari"), ("contatti", "Contatti")],
+        "nav": [("filosofia", "Filosofia"), ("orari", "Orari"), ("contatti", "Contatti")],
         "book": "Prenota su WhatsApp",
         "wa_msg": "Ciao Carlo! Vorrei prenotare un appuntamento.",
         "wa_first": "Ciao Carlo! È la prima volta che vengo da voi e vorrei prenotare un appuntamento.",
@@ -153,7 +153,7 @@ T = {
         "home_desc": "Carlo Mora, an Art Hair Studios by Wella hair salon at Viale Mentana 12/a in Parma, Italy: women's cuts, colour, blow-dry and treatments. Book on WhatsApp.",
         "skip": "Skip to content",
         "menu": "Menu",
-        "nav": [("filosofia", "Philosophy"), ("arcano", "Which Arcana are you?"), ("prima-volta", "First visit"), ("orari", "Opening hours"), ("contatti", "Contact")],
+        "nav": [("filosofia", "Philosophy"), ("orari", "Opening hours"), ("contatti", "Contact")],
         "book": "Book on WhatsApp",
         "wa_msg": "Hi Carlo! I'd like to book an appointment.",
         "wa_first": "Hi Carlo! It's my first time at your salon and I'd like to book an appointment.",
@@ -551,7 +551,7 @@ def home(L):
 
 <section id="prima-volta" class="section chiara prima">
   <div class="wrap cols">
-    <div class="foto reveal" data-parallax>
+    <div class="foto reveal">
       <img src="/assets/img/treccia-lunga-960.webp" srcset="{srcset('treccia-lunga', (480, 960, 1600))}" sizes="(max-width:860px) 92vw, 42vw" alt="{e(t['prima_alt'])}" width="1600" height="2400" loading="lazy" decoding="async">
     </div>
     <div class="passi reveal">
