@@ -57,14 +57,6 @@ I testi di privacy e cookie policy sono quelli del sito originale, riportati com
 - Crediti: foto della collezione **Alchemy F/W 2026 © Art Hair Studios by Wella**, usate in quanto salone della rete. Prima della messa online va confermato con Wella che l'uso sul sito è consentito.
 - `giustizia` e `torre` arrivano dal sito Art Hair Studios a 800 px: andrebbero sostituite con gli originali ad alta risoluzione.
 
-## Video
-
-Nell'hero c'è un video in loop, muto e senza audio: `assets/video/hero-720.mp4` per computer e `hero-480.mp4` per telefono, più l'immagine di anteprima `hero-poster.webp`.
-- Il loop è reso continuo con una dissolvenza di 1,5 secondi tra la fine e l'inizio.
-- Il video si ferma quando l'hero esce dallo schermo e non parte con `prefers-reduced-motion`.
-- Fonte: Mixkit, "Portrait of a young model with wind in her hair" (41662), licenza Mixkit Stock Video Free License: uso commerciale consentito, attribuzione non richiesta.
-- Per sostituirlo basta mettere nuovi file con nomi diversi e aggiornare `tools/build.py`. Se `hero-720.mp4` non c'è, l'hero torna alla foto.
-
 ## Font
 
 Archivo e Instrument Serif, licenza SIL Open Font License 1.1.
