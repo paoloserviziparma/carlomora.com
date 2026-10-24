@@ -48,7 +48,7 @@ Il sito non ha moduli. Tutti i pulsanti di prenotazione sono link `https://wa.me
 
 Nessun cookie e nessuno script di tracciamento, quindi nessun banner. Le statistiche si leggono da **Netlify Analytics**, che lavora sui log del server: va attivato nel pannello Netlify del sito (Site configuration → Analytics). Font e immagini sono locali: il sito non contatta servizi esterni.
 
-I testi di privacy e cookie policy sono quelli del sito originale, riportati come pagine interne (`tools/legal.py`); le versioni inglesi sono traduzioni di cortesia. Parlano ancora di Wix, banner cookie, cookie statistici ed e-commerce, che il nuovo sito non ha: **vanno aggiornati e fatti verificare da un consulente**.
+I testi di privacy e cookie policy partono da quelli del sito originale e sono pagine interne (`tools/legal.py`). Le versioni inglesi sono traduzioni di cortesia. Rispetto all'originale ho tolto Wix (ora c'è l'hosting Netlify), l'e-commerce con i pagamenti e il banner con i cookie, che il nuovo sito non ha. **Vanno comunque fatti verificare da un consulente.**
 
 ## Immagini
 

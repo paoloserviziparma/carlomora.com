@@ -1,6 +1,6 @@
 # Testi legali: riportati dal sito originale (www.carlomora.com su Wix, ottobre 2026).
-# Unica modifica: il link all'indirizzo del sito ora punta a www.carlomora.com
-# (nell'originale puntava a serviziparma.com). Le versioni inglesi sono traduzioni
+# Modifiche: link all'indirizzo del sito su www.carlomora.com; tolti Wix (ora Netlify),
+# e-commerce/pagamenti e banner/cookie, che il nuovo sito non ha. Le versioni inglesi sono traduzioni
 # di cortesia; fa fede il testo italiano.
 
 PRIVACY_IT = """
@@ -31,12 +31,13 @@ I dati così raccolti sono conservati il tempo strettamente necessario per rispo
 
 <h2>Destinatari dei dati</h2>
 <p>I dati di navigazione sono conservati dall’ISP (Internet Service Provider) e dal web host (soggetto che ospita il server web su proprie macchine fisiche) i quali li conservano secondo i tempi previsti dalla normativa.<br>
-I dati personali raccolti a seguito di ricezione di messaggi, contatti tramite il form e tramite la sezione e-commerce sono altresì trattati dal personale interno autorizzato dal Titolare, che agisce sulla base di specifiche istruzioni fornite in ordine a finalità e modalità del trattamento medesimo. I circuiti di pagamento abilitati, tramite gateway di pagamento che si attiva alla conferma dell’ordine, ricevono i dati relativi alla carta di credito dell’acquirente.<br>
+I dati personali raccolti a seguito di ricezione di messaggi e contatti sono altresì trattati dal personale interno autorizzato dal Titolare, che agisce sulla base di specifiche istruzioni fornite in ordine a finalità e modalità del trattamento medesimo.<br>
 Non viene effettuata profilazione ed i dati raccolti non sono oggetto di processi decisionali automatizzati.<br>
-Il sito è sviluppando con la piattaforma fai da te (DYI) Wix, la quale garantisce standard di protezione dei dati personali conformi al GDPR. I server web possono essere posizionati in diversi paesi, sia all’interno dell’Unione Europea (ad esempio in Irlanda) sia al di fuori dell’Unione Europea (ad esempio Stati Uniti), e pertanto anche le informazioni personali dei visitatori sono conservati in questi paesi. I trasferimenti di dati al di fuori dell’Unione Europea vengono effettuati garantendo un adeguato livello di protezione secondo la Commissione Europea, in conformità alle Clausole Contrattuali Standard (2010/87/UE). A questo link è possibile consultare l’Accordo sul trattamento dei dati:</p>
-<p><a href="https://www.wix.com/about/privacy-dpa-users" target="_blank" rel="noopener">https://www.wix.com/about/privacy-dpa-users</a></p>
+Il sito è ospitato sulla piattaforma Netlify (Netlify, Inc.), che agisce come responsabile del trattamento per il servizio di hosting e garantisce standard di protezione dei dati personali conformi al GDPR. I server web possono essere posizionati in diversi paesi, sia all’interno dell’Unione Europea sia al di fuori dell’Unione Europea (ad esempio Stati Uniti), e pertanto anche i dati di navigazione dei visitatori possono essere conservati in questi paesi. I trasferimenti di dati al di fuori dell’Unione Europea vengono effettuati garantendo un adeguato livello di protezione, in conformità alle Clausole Contrattuali Standard approvate dalla Commissione Europea. A questo link è possibile consultare l’Accordo sul trattamento dei dati:</p>
+<p><a href="https://www.netlify.com/pdf/netlify-dpa.pdf" target="_blank" rel="noopener">https://www.netlify.com/pdf/netlify-dpa.pdf</a></p>
 <p>A questo link è invece possibile consultare la policy sui dati personali:</p>
-<p><a href="https://www.wix.com/about/privacy" target="_blank" rel="noopener">https://www.wix.com/about/privacy</a></p>
+<p><a href="https://www.netlify.com/privacy/" target="_blank" rel="noopener">https://www.netlify.com/privacy/</a></p>
+<p>I pulsanti WhatsApp presenti nel sito aprono il servizio WhatsApp, gestito da WhatsApp Ireland Limited, che tratta i dati secondo la propria informativa.</p>
 
 <h2>Diritti degli interessati e diritto di reclamo</h2>
 <p>Gli interessati hanno il diritto di ottenere dal Titolare, nei casi previsti, l'accesso ai propri dati personali e la rettifica o la cancellazione degli stessi o la limitazione del trattamento che li riguarda o di opporsi al trattamento (artt. da 15 a 22. del Regolamento).<br>
@@ -85,12 +86,9 @@ COOKIE_IT = """
 <p>Al fine della loro installazione e del loro utilizzo i cookie tecnici non richiedono il consenso dell’utente, e sono pertanto anche indicati come necessari, mentre i cookie di profilazione, sia di prima sia di terze parti, possono essere utilizzati solo previo consenso da parte dell’utente; i cookie analytics o statistici infine sono paragonati ai cookie tecnici solo se raccolgono dati anonimi, in caso contrario sono anch’essi sottoposti al previo consenso da parte dell’utente.</p>
 
 <h2>Che tipo di cookie utilizza questo sito?</h2>
-<p>Questo sito utilizza cookie tecnici, necessari a garantire un adeguato livello di sicurezza del sito (prevenendo ad esempio gli attacchi Cross-Site Scripting e distinguendo gli utenti umani dai bot), a ricordare il login effettuato dall’utente nel corso della sessione, evitando di doversi autenticare ad ogni cambio pagina, a ricordare la lingua di visualizzazione dell’utente e a memorizzare il consenso espresso mediante il banner a scomparsa in homepage.</p>
-<p>Sono inoltre presenti cookie statistici, i quali hanno lo scopo di memorizzare le visualizzazioni delle pagine da parte degli utenti, in modo da poterci fornire statistiche aggiornate sull’utilizzo dei servizi offerti. Cliccando sul pulsante “Rifiuta tutti” del banner a scomparsa in homepage questi cookie non saranno installati, dal momento che è necessario acquisire il consenso preventivo all’installazione.</p>
-
-<h2>Tempo di conservazione</h2>
-<p>I cookie tecnici sono conservati nel device dell’utente con tempistiche differenti, alcuni sono cancellati alla chiusura della sessione di navigazione (c.d. cookie di sessione), mentre altri sono conservati con tempi che vanno da 30 minuti a 2 anni.</p>
-<p>I cookie statistici sono conservati con tempi che vanno da 1 giorno a due anni.</p>
+<p>Questo sito non utilizza cookie, né tecnici né statistici né di profilazione, e non utilizza altri strumenti di tracciamento. Per questo motivo non è presente alcun banner per la raccolta del consenso.</p>
+<p>Le statistiche sulle visite sono ricavate in forma aggregata dai registri del server che ospita il sito (Netlify Analytics), senza installare nulla sul dispositivo dell’utente.</p>
+<p>Le informazioni che seguono restano utili per i siti esterni raggiungibili tramite i link presenti nel sito (ad esempio WhatsApp, Instagram, Facebook, Google Maps), che hanno le proprie cookie policy.</p>
 
 <h2>Disattivazione dei cookie sul browser</h2>
 <p>Ogni utente può configurare il proprio browser in modo da non accettare automaticamente cookie. È possibile eliminare tutti i cookie installati all’interno del browser o bloccarne l’installazione di nuovi. Per ottenere le istruzioni specifiche per ogni tipologia di browser seleziona uno dei link seguenti:</p>
@@ -100,7 +98,7 @@ COOKIE_IT = """
 <li>FIREFOX: <a href="https://support.mozilla.org/it/kb/Attivare%20e%20disattivare%20i%20cookie" target="_blank" rel="noopener">https://support.mozilla.org/it/kb/Attivare%20e%20disattivare%20i%20cookie</a></li>
 <li>OPERA: <a href="http://help.opera.com/Windows/10.00/it/cookies.html" target="_blank" rel="noopener">http://help.opera.com/Windows/10.00/it/cookies.html</a></li>
 </ul>
-<p>Tramite le impostazioni del browser è poi possibile cancellare cookie e dati di navigazione (ogni browser ha la sua modalità, per cui è necessario seguire le apposite guide presenti nel web); così facendo e rientrando nel sito il banner sarà riproposto e sarà così possibile rinnovare o esprimere di nuovo il consenso. È bene ricordare che questa operazione potrebbe cancellare altri dati salvati nel browser e riferiti anche ad altri siti (ad esempio le password) ed è quindi necessario selezionare solo le funzioni di cancellazione dei cookie e dei dati di navigazione (ad esempio la cronologia e la memoria cache del browser).</p>
+<p>Tramite le impostazioni del browser è poi possibile cancellare cookie e dati di navigazione (ogni browser ha la sua modalità, per cui è necessario seguire le apposite guide presenti nel web). È bene ricordare che questa operazione potrebbe cancellare altri dati salvati nel browser e riferiti anche ad altri siti (ad esempio le password) ed è quindi necessario selezionare solo le funzioni di cancellazione dei cookie e dei dati di navigazione (ad esempio la cronologia e la memoria cache del browser).</p>
 <p>È possibile infine attivare l’opzione “Do Not Track”, presente nella maggior parte dei browser di ultima generazione. I siti web progettati in modo da rispettare questa opzione, quando viene attivata, dovrebbero automaticamente smettere di raccogliere alcuni tuoi dati di navigazione. Come detto, tuttavia, non tutti i siti web sono impostati in modo da rispettare questa opzione.</p>
 <p>Tuttavia si sconsiglia la disabilitazione totale dei cookie dal momento che potrebbe comportare l’impossibilità di navigare, e si consiglia di scegliere come impostazione la disabilitazione dei soli elementi traccianti.</p>
 
@@ -140,12 +138,13 @@ The data collected in this way are kept for the time strictly necessary to reply
 
 <h2>Recipients of the data</h2>
 <p>Browsing data are kept by the ISP (Internet Service Provider) and by the web host (the entity hosting the web server on its own physical machines), which keep them for the periods required by law.<br>
-Personal data collected through messages, contacts via the form and the e-commerce section are also processed by internal staff authorised by the controller, who act on the basis of specific instructions regarding the purposes and methods of processing. The enabled payment circuits, through a payment gateway activated when an order is confirmed, receive the buyer's credit card data.<br>
+Personal data collected through messages and contacts are also processed by internal staff authorised by the controller, who act on the basis of specific instructions regarding the purposes and methods of processing.<br>
 No profiling is carried out and the data collected are not subject to automated decision-making.<br>
-The website is built with the do-it-yourself (DIY) platform Wix, which guarantees personal data protection standards compliant with the GDPR. Web servers may be located in different countries, both inside the European Union (for example in Ireland) and outside it (for example in the United States), and visitors' personal information is therefore also stored in those countries. Transfers of data outside the European Union are carried out ensuring an adequate level of protection according to the European Commission, in accordance with the Standard Contractual Clauses (2010/87/EU). The Data Processing Agreement can be consulted at this link:</p>
-<p><a href="https://www.wix.com/about/privacy-dpa-users" target="_blank" rel="noopener">https://www.wix.com/about/privacy-dpa-users</a></p>
+The website is hosted on the Netlify platform (Netlify, Inc.), which acts as data processor for the hosting service and guarantees personal data protection standards compliant with the GDPR. Web servers may be located in different countries, both inside and outside the European Union (for example in the United States), and visitors' browsing data may therefore also be stored in those countries. Transfers of data outside the European Union are carried out ensuring an adequate level of protection, in accordance with the Standard Contractual Clauses approved by the European Commission. The Data Processing Agreement can be consulted at this link:</p>
+<p><a href="https://www.netlify.com/pdf/netlify-dpa.pdf" target="_blank" rel="noopener">https://www.netlify.com/pdf/netlify-dpa.pdf</a></p>
 <p>The personal data policy can be consulted at this link:</p>
-<p><a href="https://www.wix.com/about/privacy" target="_blank" rel="noopener">https://www.wix.com/about/privacy</a></p>
+<p><a href="https://www.netlify.com/privacy/" target="_blank" rel="noopener">https://www.netlify.com/privacy/</a></p>
+<p>The WhatsApp buttons on the website open the WhatsApp service, operated by WhatsApp Ireland Limited, which processes data under its own privacy policy.</p>
 
 <h2>Data subjects' rights and right to lodge a complaint</h2>
 <p>Data subjects have the right to obtain from the controller, where applicable, access to their personal data and their rectification or erasure, or restriction of processing concerning them, or to object to processing (Articles 15 to 22 of the Regulation).<br>
@@ -194,12 +193,9 @@ COOKIE_EN = EN_NOTE.format(it="/cookie/") + """
 <p>Technical cookies do not require the user's consent to be installed and used, and are therefore also referred to as necessary, whereas profiling cookies, both first- and third-party, may only be used with the user's prior consent; finally, analytics or statistical cookies are treated like technical cookies only if they collect anonymous data, otherwise they are also subject to the user's prior consent.</p>
 
 <h2>What type of cookies does this website use?</h2>
-<p>This website uses technical cookies, needed to ensure an adequate level of security (for example by preventing Cross-Site Scripting attacks and distinguishing human users from bots), to remember the user's login during the session so they do not have to log in again on every page, to remember the user's display language and to store the consent given through the pop-up banner on the home page.</p>
-<p>There are also statistical cookies, whose purpose is to record users' page views so as to provide us with up-to-date statistics on the use of the services offered. By clicking the “Reject all” button on the pop-up banner on the home page, these cookies will not be installed, since prior consent to their installation is required.</p>
-
-<h2>Retention period</h2>
-<p>Technical cookies are kept on the user's device for different periods: some are deleted when the browsing session ends (so-called session cookies), while others are kept for periods ranging from 30 minutes to 2 years.</p>
-<p>Statistical cookies are kept for periods ranging from 1 day to two years.</p>
+<p>This website uses no cookies, neither technical, statistical nor profiling ones, and no other tracking tools. For this reason there is no consent banner.</p>
+<p>Visit statistics are derived in aggregate form from the logs of the server hosting the website (Netlify Analytics), without installing anything on the user's device.</p>
+<p>The information below remains useful for the external websites reachable through links on this website (for example WhatsApp, Instagram, Facebook, Google Maps), which have their own cookie policies.</p>
 
 <h2>Disabling cookies in the browser</h2>
 <p>Each user can configure their browser so that it does not automatically accept cookies. It is possible to delete all cookies installed in the browser or to block the installation of new ones. For specific instructions for each type of browser, select one of the following links:</p>
@@ -209,7 +205,7 @@ COOKIE_EN = EN_NOTE.format(it="/cookie/") + """
 <li>FIREFOX: <a href="https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences" target="_blank" rel="noopener">https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences</a></li>
 <li>OPERA: <a href="http://help.opera.com/Windows/10.00/en/cookies.html" target="_blank" rel="noopener">http://help.opera.com/Windows/10.00/en/cookies.html</a></li>
 </ul>
-<p>Browser settings also allow you to delete cookies and browsing data (each browser has its own method, so follow the relevant guides available online); by doing so and returning to the website, the banner will be shown again and you will be able to renew or give your consent again. Remember that this operation may delete other data saved in the browser, including data relating to other websites (for example passwords), so select only the functions for deleting cookies and browsing data (for example the browser history and cache).</p>
+<p>Browser settings also allow you to delete cookies and browsing data (each browser has its own method, so follow the relevant guides available online). Remember that this operation may delete other data saved in the browser, including data relating to other websites (for example passwords), so select only the functions for deleting cookies and browsing data (for example the browser history and cache).</p>
 <p>Finally, you can enable the “Do Not Track” option available in most modern browsers. Websites designed to respect this option should automatically stop collecting some of your browsing data when it is enabled. As mentioned, however, not all websites are set up to respect this option.</p>
 <p>However, completely disabling cookies is not recommended, as it could make browsing impossible; it is advisable to choose a setting that disables tracking elements only.</p>
 
