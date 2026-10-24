@@ -85,7 +85,7 @@ T = {
         "filo_sign": "Carlo Mora &amp; la sua tribù",
         "coll_kicker": "02 — Collezione Art Hair Studios",
         "coll_text": "Facciamo parte della rete Art Hair Studios by Wella. La collezione di questa stagione si ispira agli Arcani dei Tarocchi: ogni carta è uno spunto per cambiare, da leggere insieme a noi in salone.",
-        "coll_alts": ["Raccolto lucido con diadema dorato a bilancia su fondo cipria", "Capelli biondi lunghissimi con trecce laterali su fondo cipria", "Treccia bionda laterale e capelli lunghi su fondo cipria"],
+        "coll_alts": ["Raccolto lucido con diadema dorato a bilancia su fondo cipria", "Caschetto rosso scolpito con ciocche bagnate e giacca oversize su fondo cipria", "Capelli biondi lunghissimi con trecce laterali su fondo cipria"],
         "credits": "Foto: collezione Alchemy F/W 2026 © Art Hair Studios by Wella.",
         "arc_kicker": "03 — Il rituale",
         "arc_h2": "Quale Arcano sei?",
@@ -175,7 +175,7 @@ T = {
         "filo_sign": "Carlo Mora &amp; his tribe",
         "coll_kicker": "02 — Art Hair Studios collection",
         "coll_text": "We are part of the Art Hair Studios by Wella network. This season's collection is inspired by the Tarot's Major Arcana: each card is a prompt for change, to read together with us in the salon.",
-        "coll_alts": ["Sleek updo with golden scales headpiece on a powder-pink background", "Very long blonde hair with side braids on a powder-pink background", "Blonde side braid and long hair on a powder-pink background"],
+        "coll_alts": ["Sleek updo with golden scales headpiece on a powder-pink background", "Sculpted red bob with wet-look strands and oversized jacket on a powder-pink background", "Very long blonde hair with side braids on a powder-pink background"],
         "credits": "Photos: Alchemy F/W 2026 collection © Art Hair Studios by Wella.",
         "arc_kicker": "03 — The ritual",
         "arc_h2": "Which Arcana are you?",
@@ -240,87 +240,23 @@ T = {
 }
 
 # ---------------------------------------------------------------- testi legali
+import sys as _sys
+_sys.path.insert(0, str(Path(__file__).resolve().parent))
+from legal import PRIVACY_IT, COOKIE_IT, PRIVACY_EN, COOKIE_EN  # noqa: E402
+
 LEGAL = {
-    ("it", "privacy"): {
-        "title": "Privacy policy | Carlo Mora Parrucchieri – Parma",
-        "desc": "Informativa sul trattamento dei dati personali degli utenti del sito di Carlo Mora Parrucchieri, Viale Mentana 12/a, Parma.",
-        "h1": "Privacy policy",
-        "body": """
-<p>Questa pagina descrive come vengono trattati i dati personali di chi visita il sito www.carlomora.com, ai sensi dell'art. 13 del Regolamento (UE) 2016/679 (GDPR).</p>
-<h2>Titolare del trattamento</h2>
-<p>Carlo Mora Parrucchieri, Viale Mentana 12/a, 43121 Parma (PR) – P. IVA 01904010343 – telefono 0521 285916 – email <a href="mailto:carlo@carlomora.com">carlo@carlomora.com</a>.</p>
-<h2>Dati di navigazione</h2>
-<p>Il sito è ospitato da Netlify, Inc. Come ogni server web, registra automaticamente alcuni dati tecnici delle richieste (indirizzo IP, data e ora, pagina richiesta, browser e sistema operativo, codice di risposta). Questi dati servono a far funzionare il sito, a proteggerlo da abusi e a produrre statistiche aggregate sulle visite tramite Netlify Analytics, che lavora sui registri del server e non usa cookie né altri strumenti di tracciamento sul tuo dispositivo.</p>
-<p>Base giuridica: legittimo interesse del titolare al funzionamento, alla sicurezza e alla misurazione aggregata del sito (art. 6, par. 1, lett. f GDPR).</p>
-<h2>Dati che ci invii tu</h2>
-<p>Il sito non contiene moduli di contatto. Se ci scrivi su WhatsApp, ci chiami o ci mandi un'email, trattiamo i dati che ci comunichi (nome, numero di telefono o email, contenuto del messaggio) solo per rispondere e gestire l'appuntamento. Base giuridica: esecuzione di misure precontrattuali o di un contratto su tua richiesta (art. 6, par. 1, lett. b GDPR).</p>
-<p>I pulsanti WhatsApp aprono il servizio WhatsApp, gestito da WhatsApp Ireland Limited, che tratta i dati secondo la propria informativa. I link a Instagram, Facebook e Mappe portano a siti di terzi, che hanno le proprie informative.</p>
-<h2>Destinatari e trasferimenti</h2>
-<p>I dati possono essere trattati da Netlify, Inc. in qualità di responsabile del trattamento per l'hosting del sito. Netlify ha sede negli Stati Uniti: il trasferimento avviene con le garanzie previste dal GDPR (Data Privacy Framework UE-USA o clausole contrattuali standard). I dati non vengono venduti, ceduti a terzi per finalità di marketing né usati per profilazione.</p>
-<h2>Conservazione</h2>
-<p>I registri del server sono conservati per il tempo previsto dal servizio di hosting. I messaggi che ci invii sono conservati per il tempo necessario a rispondere e a gestire il rapporto con te.</p>
-<h2>I tuoi diritti</h2>
-<p>Puoi chiedere in qualsiasi momento l'accesso ai tuoi dati, la rettifica, la cancellazione, la limitazione o l'opposizione al trattamento e la portabilità (artt. 15–22 GDPR), scrivendo a <a href="mailto:carlo@carlomora.com">carlo@carlomora.com</a>. Hai anche il diritto di proporre reclamo al Garante per la protezione dei dati personali (www.garanteprivacy.it).</p>
-<h2>Cookie</h2>
-<p>Il sito non usa cookie: trovi i dettagli nella <a href="/cookie/">cookie policy</a>.</p>
-""",
-    },
-    ("it", "cookie"): {
-        "title": "Cookie policy | Carlo Mora Parrucchieri – Parma",
-        "desc": "Il sito di Carlo Mora Parrucchieri non usa cookie né strumenti di tracciamento: ecco come misuriamo le visite.",
-        "h1": "Cookie policy",
-        "body": """
-<p>Questo sito <strong>non usa cookie</strong>, né tecnici né di profilazione, e non usa altri strumenti di tracciamento come pixel, localStorage o fingerprinting. Per questo non trovi nessun banner da accettare.</p>
-<h2>Come misuriamo le visite</h2>
-<p>Le statistiche sulle visite sono prodotte da Netlify Analytics, che conta le pagine viste a partire dai registri del server che ospita il sito, senza installare nulla sul tuo dispositivo. I dati sono aggregati e non ci permettono di identificarti. Maggiori dettagli nella <a href="/privacy/">privacy policy</a>.</p>
-<h2>Font, immagini e contenuti esterni</h2>
-<p>Caratteri tipografici e immagini sono ospitati sul nostro stesso server: il sito non contatta servizi come Google Fonts. Non sono incorporati video, mappe o post dei social.</p>
-<h2>Link esterni</h2>
-<p>I pulsanti WhatsApp e i link a Instagram, Facebook e Mappe aprono siti o app di terzi. Una volta lì, valgono le cookie policy di quei servizi.</p>
-<h2>Contatti</h2>
-<p>Carlo Mora Parrucchieri, Viale Mentana 12/a, 43121 Parma (PR) – <a href="mailto:carlo@carlomora.com">carlo@carlomora.com</a>.</p>
-""",
-    },
-    ("en", "privacy"): {
-        "title": "Privacy policy | Carlo Mora Hair Salon – Parma",
-        "desc": "How Carlo Mora hair salon, Viale Mentana 12/a, Parma, processes the personal data of website visitors.",
-        "h1": "Privacy policy",
-        "body": """
-<p>This page explains how the personal data of visitors to www.carlomora.com are processed, in accordance with Article 13 of Regulation (EU) 2016/679 (GDPR). The Italian version is the legally binding one.</p>
-<h2>Data controller</h2>
-<p>Carlo Mora Parrucchieri, Viale Mentana 12/a, 43121 Parma (PR), Italy – VAT no. 01904010343 – phone +39 0521 285916 – email <a href="mailto:carlo@carlomora.com">carlo@carlomora.com</a>.</p>
-<h2>Browsing data</h2>
-<p>The website is hosted by Netlify, Inc. Like any web server, it automatically logs some technical data about requests (IP address, date and time, page requested, browser and operating system, response code). These data are used to run and protect the website and to produce aggregate visit statistics through Netlify Analytics, which works on server logs and does not use cookies or any other tracking technology on your device.</p>
-<p>Legal basis: the controller's legitimate interest in operating, securing and measuring the website in aggregate (Art. 6(1)(f) GDPR).</p>
-<h2>Data you send us</h2>
-<p>The website has no contact forms. If you message us on WhatsApp, call us or email us, we process the data you give us (name, phone number or email address, message content) only to reply and manage your appointment. Legal basis: steps taken at your request prior to or under a contract (Art. 6(1)(b) GDPR).</p>
-<p>WhatsApp buttons open the WhatsApp service, operated by WhatsApp Ireland Limited under its own privacy policy. Links to Instagram, Facebook and Maps lead to third-party websites with their own policies.</p>
-<h2>Recipients and transfers</h2>
-<p>Data may be processed by Netlify, Inc. as processor for website hosting. Netlify is based in the United States: transfers rely on the safeguards provided by the GDPR (EU-US Data Privacy Framework or standard contractual clauses). Data are never sold, shared for marketing purposes or used for profiling.</p>
-<h2>Retention</h2>
-<p>Server logs are kept for the period set by the hosting service. Messages you send us are kept for as long as needed to reply and manage our relationship with you.</p>
-<h2>Your rights</h2>
-<p>You may at any time request access to, rectification or erasure of your data, restriction of or objection to processing, and data portability (Articles 15–22 GDPR) by writing to <a href="mailto:carlo@carlomora.com">carlo@carlomora.com</a>. You also have the right to lodge a complaint with the Italian data protection authority, Garante per la protezione dei dati personali (www.garanteprivacy.it).</p>
-<h2>Cookies</h2>
-<p>This website does not use cookies: see the <a href="/en/cookie/">cookie policy</a>.</p>
-""",
-    },
-    ("en", "cookie"): {
-        "title": "Cookie policy | Carlo Mora Hair Salon – Parma",
-        "desc": "The Carlo Mora hair salon website uses no cookies and no tracking: here's how we count visits.",
-        "h1": "Cookie policy",
-        "body": """
-<p>This website <strong>uses no cookies</strong>, neither technical nor profiling ones, and no other tracking tools such as pixels, localStorage or fingerprinting. That's why there is no banner to accept.</p>
-<h2>How we count visits</h2>
-<p>Visit statistics come from Netlify Analytics, which counts page views from the logs of the server hosting the website, without installing anything on your device. The data are aggregated and do not identify you. More details in the <a href="/en/privacy/">privacy policy</a>.</p>
-<h2>Fonts, images and external content</h2>
-<p>Fonts and images are hosted on our own server: the website does not contact services such as Google Fonts. No videos, maps or social media posts are embedded.</p>
-<h2>External links</h2>
-<p>WhatsApp buttons and links to Instagram, Facebook and Maps open third-party websites or apps, whose own cookie policies apply.</p>
-<h2>Contact</h2>
-<p>Carlo Mora Parrucchieri, Viale Mentana 12/a, 43121 Parma (PR), Italy – <a href="mailto:carlo@carlomora.com">carlo@carlomora.com</a>.</p>
-""",
-    },
+    ("it", "privacy"): {"title": "Privacy policy | Carlo Mora Parrucchieri – Parma",
+                        "desc": "Informativa sul trattamento dei dati personali degli utenti del sito di Carlo Mora Parrucchieri, Viale Mentana, Parma.",
+                        "h1": "Privacy policy", "body": PRIVACY_IT},
+    ("it", "cookie"): {"title": "Cookie policy | Carlo Mora Parrucchieri – Parma",
+                       "desc": "Informativa sull'uso dei cookie sul sito di Carlo Mora Parrucchieri, Viale Mentana, Parma.",
+                       "h1": "Cookie policy", "body": COOKIE_IT},
+    ("en", "privacy"): {"title": "Privacy policy | Carlo Mora Hair Salon – Parma",
+                        "desc": "How the personal data of visitors to the Carlo Mora hair salon website in Parma, Italy, are processed.",
+                        "h1": "Privacy policy", "body": PRIVACY_EN},
+    ("en", "cookie"): {"title": "Cookie policy | Carlo Mora Hair Salon – Parma",
+                       "desc": "Information on the use of cookies on the Carlo Mora hair salon website in Parma, Italy.",
+                       "h1": "Cookie policy", "body": COOKIE_EN},
 }
 
 LLMS = '''# Carlo Mora Parrucchieri
@@ -500,7 +436,7 @@ def home(L):
     quiz_json = json.dumps(q, ensure_ascii=False).replace("</", "<\\/")
     fascia = "<span aria-hidden=\"true\">·</span>".join(f"<span>{e(x)}</span>" for x in t["fascia"])
     filo = "\n".join(f"        <p>{p}</p>" for p in t["filo_p"])
-    coll_imgs = [("giustizia", (480, 800)), ("torre", (480, 800)), ("treccia-lunga", (480, 960, 1600))]
+    coll_imgs = [("giustizia", (480, 800)), ("diavolo", (480, 960, 1600)), ("torre", (480, 800))]
     gal = "\n".join(
         f'        <figure class="reveal" data-parallax><img src="/assets/img/{n}-{w[0]}.webp" srcset="{srcset(n, w)}" '
         f'sizes="(max-width:560px) 92vw, (max-width:900px) 46vw, 30vw" alt="{e(alt)}" width="{w[-1]}" '
@@ -513,13 +449,22 @@ def home(L):
         f'          <div><dt>{e(d)}</dt><dd>{e(h)}</dd>' + (f'<dd class="nota">{e(n)}</dd>' if n else "") + "</div>"
         for d, h, n in t["orari"])
     faq = "\n".join(f'        <details class="reveal"><summary>{e(qq)}</summary><p>{e(aa)}</p></details>' for qq, aa in t["faq"])
+    if (PUB / "assets/video/hero-720.mp4").exists():
+        hero_media = f"""  <div class="hero-img hero-video">
+    <video autoplay muted loop playsinline preload="auto" poster="/assets/video/hero-poster.webp" aria-hidden="true" tabindex="-1" data-hero-video>
+      <source src="/assets/video/hero-480.mp4" type="video/mp4" media="(max-width: 760px)">
+      <source src="/assets/video/hero-720.mp4" type="video/mp4">
+    </video>
+  </div>"""
+    else:
+        hero_media = f"""  <div class="hero-img">
+    <img src="/assets/img/diavolo-960.webp" srcset="{srcset('diavolo', (480, 960, 1600))}" sizes="(max-width:760px) 100vw, 58vw" alt="{e(t['hero_alt'])}" width="1600" height="2263" fetchpriority="high">
+  </div>"""
     out = head(L, t["home_title"], t["home_desc"], t["prefix"], other_home, (ld_business(L), ld_faq(L)))
     out += header(L, "", other_home)
     out += f"""<main id="main">
 <section class="hero" aria-label="Carlo Mora Parrucchieri">
-  <div class="hero-img">
-    <img src="/assets/img/diavolo-960.webp" srcset="{srcset('diavolo', (480, 960, 1600))}" sizes="(max-width:760px) 100vw, 58vw" alt="{e(t['hero_alt'])}" width="1600" height="2263" fetchpriority="high">
-  </div>
+{hero_media}
   <div class="hero-fade" aria-hidden="true"></div>
   <div class="wrap hero-text">
     <div class="hero-anim">
@@ -696,8 +641,7 @@ def legal(L, kind):
   <div class="wrap">
     <nav aria-label="Breadcrumb" class="eyebrow"><a href="{t['prefix']}">{t['home']}</a> / {d['h1']}</nav>
     <h1>{d['h1']}</h1>
-    <p class="agg">{t['upd']}</p>
-{d['body']}
+    {d['body']}
   </div>
 </main>
 """

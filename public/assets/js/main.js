@@ -25,7 +25,22 @@
   var header = document.querySelector('.header');
   var lastY = window.scrollY;
   var ticking = false;
-  var heroImg = document.querySelector('.hero-img img');
+  var heroImg = document.querySelector('.hero-img img, .hero-img video');
+  var heroVideo = document.querySelector('[data-hero-video]');
+  if (heroVideo) {
+    heroVideo.closest('.hero').classList.add('has-video');
+    if (reduce) { heroVideo.removeAttribute('autoplay'); heroVideo.pause(); }
+    else {
+      var p = heroVideo.play();
+      if (p && p.catch) p.catch(function () {});
+      /* fermo il video quando l'hero non si vede, per risparmiare batteria */
+      if ('IntersectionObserver' in window) {
+        new IntersectionObserver(function (en) {
+          en.forEach(function (x) { if (x.isIntersecting) { var q = heroVideo.play(); if (q && q.catch) q.catch(function () {}); } else heroVideo.pause(); });
+        }).observe(heroVideo);
+      }
+    }
+  }
   var mobile = window.matchMedia('(max-width: 760px)');
   var parallax = Array.prototype.slice.call(document.querySelectorAll('[data-parallax] img'));
 

@@ -103,6 +103,18 @@ h1,h2,h3{hyphens:none;-webkit-hyphens:none;overflow-wrap:normal;word-break:norma
   .hero-anim{max-width:none}
 }
 
+/* video di sfondo nell'hero */
+.hero-video{width:100%;left:0}
+.hero-video video{width:100%;height:115%;object-fit:cover;object-position:62% 30%;display:block;will-change:transform}
+.hero-video + .hero-fade{left:0;width:100%;background:linear-gradient(90deg,rgba(12,12,12,.94) 0%,rgba(12,12,12,.78) 34%,rgba(12,12,12,.25) 62%,rgba(12,12,12,0) 80%),linear-gradient(0deg,rgba(12,12,12,.6) 0%,rgba(12,12,12,0) 40%)}
+@media (max-width:760px){
+  .hero-video{position:absolute;inset:0;aspect-ratio:auto;max-height:none;height:100%}
+  .hero-video video{object-position:66% 30%}
+  .hero.has-video{min-height:92vh;justify-content:flex-end}
+  .hero.has-video .hero-text{margin-top:0}
+  .hero-video + .hero-fade{top:0;height:100%;background:linear-gradient(0deg,rgba(12,12,12,.96) 0%,rgba(12,12,12,.82) 42%,rgba(12,12,12,.2) 75%,rgba(12,12,12,0) 100%)}
+}
+
 /* fascia */
 .fascia{border-top:1px solid #262626}
 .fascia .wrap{display:flex;flex-wrap:wrap;gap:10px 36px;justify-content:space-between;padding-top:22px;padding-bottom:22px;font-weight:700;font-stretch:75%;text-transform:uppercase;letter-spacing:.12em;font-size:15px}
@@ -210,10 +222,11 @@ h1,h2,h3{hyphens:none;-webkit-hyphens:none;overflow-wrap:normal;word-break:norma
 .legal{padding-top:calc(var(--header-h) + 72px);padding-bottom:120px}
 .legal .wrap{max-width:860px}
 .legal h1{margin:0 0 12px;font-weight:900;font-stretch:62%;text-transform:uppercase;line-height:.95;font-size:clamp(44px,6vw,80px)}
+.legal h3{margin:28px 0 8px;font-weight:700;font-size:18px;letter-spacing:.04em;text-transform:uppercase}
 .legal h2{margin:48px 0 12px;font-weight:800;font-stretch:75%;text-transform:uppercase;letter-spacing:.06em;font-size:22px}
 .legal p,.legal li{color:var(--osso-testo)}
 .legal .agg{color:var(--grigio);font-size:15px;margin-bottom:40px}
-.legal a{color:var(--oro)}
+.legal a{color:var(--oro);overflow-wrap:anywhere;word-break:break-word}
 
 .notfound{min-height:100vh;display:flex;align-items:center;padding-top:var(--header-h)}
 .notfound h1{margin:0;font-weight:900;font-stretch:62%;text-transform:uppercase;line-height:.86;font-size:clamp(80px,16vw,220px)}
