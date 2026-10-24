@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.carlomora.com/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.carlomora.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.carlomora.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.carlomora.com/"/>
+  </url>
+  <url>
+    <loc>https://www.carlomora.com/en/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.carlomora.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.carlomora.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.carlomora.com/"/>
+  </url>
+  <url>
+    <loc>https://www.carlomora.com/privacy/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.carlomora.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.carlomora.com/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.carlomora.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://www.carlomora.com/en/privacy/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.carlomora.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.carlomora.com/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.carlomora.com/privacy/"/>
+  </url>
+  <url>
+    <loc>https://www.carlomora.com/cookie/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.carlomora.com/cookie/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.carlomora.com/en/cookie/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.carlomora.com/cookie/"/>
+  </url>
+  <url>
+    <loc>https://www.carlomora.com/en/cookie/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.carlomora.com/cookie/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.carlomora.com/en/cookie/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.carlomora.com/cookie/"/>
+  </url>
+</urlset>
